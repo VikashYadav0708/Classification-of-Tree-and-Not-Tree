@@ -1,0 +1,232 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.image {
+    background-image: url(02_logo.png);
+    background-size: 100% 100%;
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: -150px;
+}
+
+.mid-back {
+    background-image: url(tree01.jpg);
+    background-size: 100% 100%;
+    height: 655px;
+    padding-top: 100px;
+    text-align: center;
+    margin: -32px -205px;
+}
+
+.mid-back h1 {
+    font-family: monospace;
+    font-weight: 900;
+    margin-top: -70px;
+    font-size: 75px;
+    letter-spacing: 7px;
+    margin-bottom: -16px;
+}
+
+.mid-back h4 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: -85px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: inline;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+.img-preview {
+    display: block;
+    margin: auto;
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border: 5px solid #F8F8F8;
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 10%);
+    margin-top: 2em;
+    margin-bottom: 35px;
+    border: 5px solid white;
+    border-radius: 7px;
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    display: block;
+    width: 200px;
+    margin: 45px auto auto;
+    border: 3px solid white;
+    font-family: Oswald, sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 24px;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 6px 0px;
+}
+
+label:hover {
+    background-color: black;
+    font-size: 22px;
+    border: 3px solid black;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    /* Light grey */
+    border-top: 8px solid #3498db;
+    /* Blue */
+    border-radius: 50%;
+    display: block;
+    width: 50px;
+    margin: auto;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#result {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: 3px solid white;
+    background-color: transparent;
+    display: inline;
+    border-radius: 6px;
+    padding: 6px 10px;
+}
+
+.under100 {
+    margin: 70px -185px;
+}
+
+.under100 h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+
+.eventcards01,
+.eventcards02 {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    cursor: pointer;
+}
+
+.eventcards01 h2:hover{
+    font-size: 30px;
+}
+.eventcards02 h2:hover{
+    font-size: 30px;
+}
+
+.eventcards1,
+.eventcards2,
+.eventcards3,
+.eventcards4,
+.eventcards5,
+.eventcards6 {
+    width: 25%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 3px 4px black;
+}
+
+
+
+.eventcards1 h2,
+.eventcards2 h2,
+.eventcards3 h2,
+.eventcards4 h2,
+.eventcards5 h2,
+.eventcards6 h2 {
+    text-align: center;
+    margin: 80px 0px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 4px 2px black;
+    color: antiquewhite;
+}
+
+.eventcards1:hover{
+    text-decoration: none;
+}
+
+.eventcards1 {
+    background-image: url(tree07.jpg);
+    background-size: 100% 100%;
+}
+
+.eventcards2 {
+    background-image: url(tree06.jpg);
+    background-size: 100% 100%;
+}
+
+.eventcards3 {
+    background-image: url(tree05.jpg);
+    background-size: 100% 100%;
+}
+
+.eventcards4 {
+    background-image: url(tree04.jpg);
+    background-size: 100% 100%;
+}
+
+.eventcards5 {
+    background-image: url(tree03.jpg);
+    background-size: 100% 100%;
+}
+
+.eventcards6 {
+    background-image: url(tree02.jpg);
+    background-size: 100% 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: -8px;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    margin: 0px -206px;
+    padding: 8px 0px;
+}
+
+.footer h3 {
+    font-size: 20px;
+}

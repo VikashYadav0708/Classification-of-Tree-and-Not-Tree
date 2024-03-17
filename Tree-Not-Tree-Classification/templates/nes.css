@@ -1,0 +1,181 @@
+.upper100 {
+    background-image: url(tree01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 721px;
+    color: white;
+    margin: -8px;
+}
+
+.uppermenu {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0% 23%;
+    margin-left: -45px;
+    height: 68px;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.menubar1,
+.menubar3 {
+    display: flex;
+}
+
+.nav1,
+.nav2,
+.nav3 {
+    padding: 25px 20px;
+    font-family: 'Anek Telugu', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.logo1 img {
+    width: 195px;
+    height: 115px;
+    margin-top: -30px;
+}
+
+.logo2 {
+    text-align: center;
+    margin-top: -62px;
+    font-family: monospace;
+    letter-spacing: 4px;
+    font-size: 16px;
+}
+
+.middle {
+    text-align: center;
+}
+
+.middle img {
+    height: 300px;
+    width: 400px;
+    margin-top: 55px;
+}
+
+.middle h1 {
+    margin-top: -78px;
+    font-size: 75px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.middle h4 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: -85px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: inline;
+    border-radius: 4px;
+}
+
+.tester {
+    margin-top: -90px;
+}
+
+.under100{
+    margin-bottom: 80px;
+}
+
+.under100 h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.eventcards01,
+.eventcards02 {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.eventcards1,
+.eventcards2,
+.eventcards3,
+.eventcards4,
+.eventcards5,
+.eventcards6 {
+    width: 25%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 3px 4px black;
+}
+
+.eventcards1 h2,
+.eventcards2 h2,
+.eventcards3 h2,
+.eventcards4 h2,
+.eventcards5 h2,
+.eventcards6 h2{
+    text-align: center;
+    margin: 80px 0px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 4px 2px black;
+}
+
+
+.eventcards1{
+    background-image: url(tree07.jpg);
+    background-size: 100% 100%;
+}
+.eventcards2{
+    background-image: url(tree06.jpg);
+    background-size: 100% 100%;
+}
+.eventcards3{
+    background-image: url(tree05.jpg);
+    background-size: 100% 100%;
+}
+.eventcards4{
+    background-image: url(tree04.jpg);
+    background-size: 100% 100%;
+}
+.eventcards5{
+    background-image: url(tree03.jpg);
+    background-size: 100% 100%;
+}
+.eventcards6{
+    background-image: url(tree02.jpg);
+    background-size: 100% 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: -8px;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+}
+
+.nav{
+    display: none;
+    cursor: pointer;
+}
+
+input[type="file"]{
+    display: none;
+}
+label{
+    display: block;
+    width: 160px;
+    margin: auto;
+    border: 3px solid white;
+    margin-top: 80px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 24px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+label:hover{
+    background-color: black;
+    font-size: 22px;
+    border: 3px solid black;
+}
